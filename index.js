@@ -97,7 +97,7 @@ async function run() {
       });
     });
 
-    // route
+    // root route
     app.get("/", (req, res) => {
       const serverStatus = {
         message: "Server is running smoothly",
